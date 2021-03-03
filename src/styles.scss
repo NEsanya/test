@@ -1,0 +1,17 @@
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  text-align: center;
+  font-family: 'playfair', 'roboto', 'arial', sans-serif;
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(assets/fonts/Roboto-Thin.ttf) format("opentype");
+}
+
+
+@font-face {
+    font-family: playfair;
+    src: url(assets/fonts/PlayfairDisplay-Regular.ttf) format("opentype");
+}
