@@ -12,4 +12,8 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  changeHideStatus(): void {
+    setTimeout(() => this.hide_text = !this.hide_text, 0)
+  }
 }

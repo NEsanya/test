@@ -1,0 +1,19 @@
+.footer-bg {
+    height: 400px;
+    background-image: url(../../assets/images/footer.png) ;
+    background-size: cover;
+    position: relative;
+}
+
+.footer-bg__content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    color: #fff;
+}
+
+.logo-text {
+    font-family: 'roboto';
+    color: #25b9c8;
+    text-decoration: none;
+}
